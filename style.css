@@ -20,9 +20,24 @@ body {
     padding: 20px;
     height: 70vh;
     width: 110vh;
-    background-color: rgba(64, 64, 112, 0.445);
+    background-color: rgba(17, 17, 27, 0.507);
 }
-  
+
+.titulo {
+    border: solid 3px rgba(255, 255, 255, 0.164);
+    padding: 15px;
+}
+.converter {
+    border: solid 3px rgba(255, 255, 255, 0.164);
+    padding: 10px;
+}
+
+.convertido {
+    border: solid 3px rgba(255, 255, 255, 0.164);
+    border-top: none;
+    padding: 10px;
+}
+
 .page-title {
     color: #ffffff;
     margin: 0 0 5px;
@@ -48,7 +63,7 @@ select {
 }
   
 label {
-    color: white;
+    color: #ffffff;
 }
   
 button {
@@ -67,8 +82,23 @@ h2 {
     background-color: white;
 }
 
-#labelConvertida {
+.labelConvertida {
     display: block;
     margin-bottom: 10px;
 }
-  
+
+button {
+    color: white;
+    background-color: rgb(17, 17, 27);
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(83, 76, 100);
+}
+
+select {
+    color: white;
+    background-color: rgb(17, 17, 27);
+    border-radius: 5px;
+}
